@@ -17,19 +17,19 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   ]
 
   const north_america = [
-    { city: 'Toronto', citySlug: 'toronto', code: 'ca', country: 'Canada', entries: '4,51', continentName: 'America do Norte'},
-    { city: 'Orlando', citySlug: 'orlando', code: 'us', country: 'United States', entries: '5,55', continentName: 'America do Norte'},
-    { city: 'Cancun', citySlug: 'cancun', code: 'mx', country: 'Mexico', entries: '6,04', continentName: 'America do Norte'},
-    { city: 'Las Vegas', citySlug: 'las_vegas', code: 'us', country: 'United States', entries: '6,59', continentName: 'America do Norte'},
-    { city: 'Los Angeles', citySlug: 'los_angeles', code: 'us', country: 'United States', entries: '7,5', continentName: 'America do Norte'},
-    { city: 'Miami', citySlug: 'miami', code: 'us', country: 'United States', entries: '8,12', continentName: 'America do Norte'},
-    { city: 'New York City', citySlug: 'new_york_city', code: 'us', country: 'United States', entries: '13,6', continentName: 'America do Norte'}
+    { city: 'Toronto', citySlug: 'toronto', code: 'ca', country: 'Canada', entries: '4,51', continentName: 'América do Norte'},
+    { city: 'Orlando', citySlug: 'orlando', code: 'us', country: 'United States', entries: '5,55', continentName: 'América do Norte'},
+    { city: 'Cancun', citySlug: 'cancun', code: 'mx', country: 'Mexico', entries: '6,04', continentName: 'América do Norte'},
+    { city: 'Las Vegas', citySlug: 'las_vegas', code: 'us', country: 'United States', entries: '6,59', continentName: 'América do Norte'},
+    { city: 'Los Angeles', citySlug: 'los_angeles', code: 'us', country: 'United States', entries: '7,5', continentName: 'América do Norte'},
+    { city: 'Miami', citySlug: 'miami', code: 'us', country: 'United States', entries: '8,12', continentName: 'América do Norte'},
+    { city: 'New York City', citySlug: 'new_york_city', code: 'us', country: 'United States', entries: '13,6', continentName: 'América do Norte'}
   ]
 
   const south_america = [
-    { city: 'Rio de Janeiro', citySlug: 'rio_de_janeiro', code: 'br', country: 'Brasil', entries: '2,28', continentName: 'America do Sul'},
-    { city: 'Lima', citySlug: 'lima', code: 'pe', country: 'Peru', entries: '2,54', continentName: 'America do Sul'},
-    { city: 'Buenos Aires', citySlug: 'buenos_aires', code: 'ar', country: 'Argentina', entries: '2,69', continentName: 'America do Sul'}
+    { city: 'Rio de Janeiro', citySlug: 'rio_de_janeiro', code: 'br', country: 'Brasil', entries: '2,28', continentName: 'América do Sul'},
+    { city: 'Lima', citySlug: 'lima', code: 'pe', country: 'Peru', entries: '2,54', continentName: 'América do Sul'},
+    { city: 'Buenos Aires', citySlug: 'buenos_aires', code: 'ar', country: 'Argentina', entries: '2,69', continentName: 'América do Sul'}
   ]
 
   const asia = [
