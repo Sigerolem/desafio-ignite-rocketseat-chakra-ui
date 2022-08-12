@@ -48,7 +48,7 @@ export default function Continents({cities, continentSlug, continentsSumary}: Co
 }
 
 export const getServerSideProps:GetServerSideProps = async ({params}) => {
-  const url = 'http://localhost:3000/api/continents'
+  const url = process.env.API_URL
 
   const continentsList = ['africa', 'south_america', 'europe', 'north_america', 'oceania', 'asia', 'middle_east']
 
