@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# desafio-ignite-rocketseat-chakra-ui
 
-## Getting Started
+## Resumo
 
-First, run the development server:
+Esse é o repositório do primeiro desafio do módulo 4 da trilha de RactJs do curso Ignite da Rocketseat.<br/>
+Nesse módulo foi ensinado a utilizar uma biblioteca de interface declarativa chamada ChakraUI.<br/>
+<br/>
+No desafio foi utilizado NextJs como framework React e o ChakraUI como biblioteca de componentes estilizáveis.<br/>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## O desafio
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O desafio completo pode ser lido [neste link](https://www.notion.so/Desafio-01-Interface-com-Chakra-UI-d1274f7fd7f54283b9173b7fd8003cc6). <br/>
+O desafio consiste em reproduzir o projeto de um site de turismo que tem como objetivo incentivar as pessoas a conhecerem o mundo.<br/>
+O design no figma pode ser visto [neste link](https://www.figma.com/file/8QAkMs3BddatXn2fFseyu4/Desafio-1-M%C3%B3dulo-4-ReactJS/duplicate)<br/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## O que aprendi
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Considero que o desafio ajudoua consolidação dos meus conhecimentos principalmente em:<br/>
+- Next e React.
+- Server-side rendering com o Next.
+- Dynamic routing com server-side.
+- Utilização de uma biblioteca de estilos como o ChakraUi.
+- Estilização utilizando componentes declarativos.
+- Deploy de um projeto serverless NextJs na Vercel.
+- Noções de estilização com acessibilidade e responsividade.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Demonstração e resultado final
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Eu realizei o deploy deste projeto na Vercel e ele pode ser visualizado em funcionamento [aqui](https://desafio-ignite-rocketseat-chakra-ui.vercel.app/)<br />
+O projeto pode ser acessado tanto por celular quanto por computadores pois mantive responsividade em mente ao longo da estilização, seguindo os projetos tanto para web quanto para mobile.
