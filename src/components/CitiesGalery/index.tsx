@@ -24,12 +24,13 @@ export function CitiesGalery({cities, continentSlug}: CitiesGaleryProps) {
       </Heading>
       <SimpleGrid columns={[1, 1, 2, 3, 4]} gap="12" w="100%" >
         {cities.map((cityItem)=>{
-          const { city, citySlug, code, country} = cityItem
+          const { city, citySlug, code, country, entries} = cityItem
           return (
             <CityCard
               key={citySlug}
               cityName={city}
               citySlug={citySlug}
+              cityEntries={entries}
               cityCountryCode={code}
               cityCountryName={country}
               cityContinentSlug={continentSlug}
