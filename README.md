@@ -17,6 +17,7 @@ O design no figma pode ser visto [neste link](https://www.figma.com/file/8QAkMs3
 
 Considero que o desafio ajudoua consolidação dos meus conhecimentos principalmente em:<br/>
 - Next e React.
+- Utilização de API Routes do NextJs para servir dados ao front-end. 
 - Server-side rendering com o Next.
 - Dynamic routing com server-side.
 - Utilização de uma biblioteca de estilos como o ChakraUi.
