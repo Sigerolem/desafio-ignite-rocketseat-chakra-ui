@@ -26,5 +26,6 @@ Considero que o desafio ajudoua consolidação dos meus conhecimentos principalm
 
 ## Demonstração e resultado final
 
+ ![teste](https://github.com/Sigerolem/desafio-ignite-rocketseat-chakra-ui/blob/main/public/print-vercel.png)
 Eu realizei o deploy deste projeto na Vercel e ele pode ser visualizado em funcionamento [aqui](https://desafio-ignite-rocketseat-chakra-ui.vercel.app/)<br />
 O projeto pode ser acessado tanto por celular quanto por computadores pois mantive responsividade em mente ao longo da estilização, seguindo os projetos tanto para web quanto para mobile.
