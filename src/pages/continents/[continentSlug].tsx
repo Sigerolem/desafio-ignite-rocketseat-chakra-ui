@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react'
-import { GetStaticPaths, GetStaticProps } from 'next'
+import { GetServerSideProps } from 'next'
 import { CitiesGalery } from '../../components/CitiesGalery'
 import { ContinentCover } from '../../components/Banners/ContinentBanner'
 import { Information } from '../../components/Information'
@@ -43,7 +43,7 @@ export default function Continents({cities, continentSlug, continentsSumary}: Co
   )
 }
 
-export const getStaticProps:GetStaticProps = async ({params}) => {
+export const getServerSideProps:GetServerSideProps = async ({params}) => {
   const url = 'http://localhost:3000/api/continents'
 
   const continentsList = ['africa', 'south_america', 'europe', 'north_america', 'oceania', 'asia', 'middle_east']
@@ -70,22 +70,6 @@ export const getStaticProps:GetStaticProps = async ({params}) => {
       cities: cities100Plus,
       continentSlug: params.continentSlug,
       continentsSumary
-    },
-    revalidate: 60 * 10 //10 minutos
-  }
-}
-
-export const getStaticPaths:GetStaticPaths = async () => {
-  return {
-    paths: [
-      { params: { continentSlug: 'europe'}},
-      { params: { continentSlug: 'asia'}},
-      { params: { continentSlug: 'north_america'}},
-      { params: { continentSlug: 'south_america'}},
-      { params: { continentSlug: 'oceania'}},
-      { params: { continentSlug: 'middle_east'}}
-    ] 
-    ,
-    fallback: false,
+    }
   }
 }
