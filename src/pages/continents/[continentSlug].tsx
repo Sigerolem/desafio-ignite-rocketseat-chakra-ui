@@ -42,7 +42,7 @@ export default function Continents({cities, continentSlug, continentsSumary}: Co
       </Head>
       <ContinentCover continentName={cities[0].continentName} continentSlug={continentSlug} />
       <Information continentSumary={continentsSumary[continentSlug]} />
-      <CitiesGalery cities={cities.reverse()} continentSlug={continentSlug} />
+      <CitiesGalery cities={cities} continentSlug={continentSlug} />
     </Box>
   )
 }

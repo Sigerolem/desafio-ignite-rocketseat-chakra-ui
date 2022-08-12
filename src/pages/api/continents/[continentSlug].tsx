@@ -14,7 +14,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     { city: 'Marrakech', citySlug: 'marrakech', code: 'ma', country: 'Morocco', entries: '2,84', continentName: 'África'},
     { city: 'Johannesburg', citySlug: 'johannesburg', code: 'za', country: 'South Africa', entries: '4,12', continentName: 'África'},
     { city: 'Cairo', citySlug: 'cairo', code: 'eg', country: 'Egypt', entries: '5,75', continentName: 'África'}
-  ]
+  ].reverse()
 
   const north_america = [
     { city: 'Toronto', citySlug: 'toronto', code: 'ca', country: 'Canada', entries: '4,51', continentName: 'América do Norte'},
@@ -24,13 +24,13 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     { city: 'Los Angeles', citySlug: 'los_angeles', code: 'us', country: 'United States', entries: '7,5', continentName: 'América do Norte'},
     { city: 'Miami', citySlug: 'miami', code: 'us', country: 'United States', entries: '8,12', continentName: 'América do Norte'},
     { city: 'New York City', citySlug: 'new_york_city', code: 'us', country: 'United States', entries: '13,6', continentName: 'América do Norte'}
-  ]
+  ].reverse()
 
   const south_america = [
     { city: 'Rio de Janeiro', citySlug: 'rio_de_janeiro', code: 'br', country: 'Brasil', entries: '2,28', continentName: 'América do Sul'},
     { city: 'Lima', citySlug: 'lima', code: 'pe', country: 'Peru', entries: '2,54', continentName: 'América do Sul'},
     { city: 'Buenos Aires', citySlug: 'buenos_aires', code: 'ar', country: 'Argentina', entries: '2,69', continentName: 'América do Sul'}
-  ]
+  ].reverse()
 
   const asia = [
     { city: 'Ha Long', citySlug: 'ha_long', code: 'vn', country: 'Vietnam', entries: '5,29', continentName: 'Ásia'},
@@ -53,7 +53,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     { city: 'Macau', citySlug: 'macau', code: 'cn', country: 'China', entries: '18,93', continentName: 'Ásia'},
     { city: 'Bangkok', citySlug: 'bangkok', code: 'th', country: 'Thailand', entries: '24,17', continentName: 'Ásia'},
     { city: 'Hong Kong', citySlug: 'hong_kong', code: 'cn', country: 'China', entries: '29,26', continentName: 'Ásia'}
-  ]
+  ].reverse()
 
   const europe = [
     { city: 'Stockholm', citySlug: 'stockholm', code: 'se', country: 'Sweden', entries: '2,6', continentName: 'Europa'},
@@ -76,12 +76,12 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     { city: 'Rome', citySlug: 'rome', code: 'it', country: 'Italy', entries: '10,07', continentName: 'Europa'},
     { city: 'Paris', citySlug: 'paris', code: 'fr', country: 'France', entries: '17,56', continentName: 'Europa'},
     { city: 'London', citySlug: 'london', code: 'gb', country: 'United Kingdom', entries: '19,23', continentName: 'Europa'}
-  ]
+  ].reverse()
 
   const oceania = [
     { city: 'Auckland', citySlug: 'auckland', code: 'nz', country: 'New Zealand', entries: '2,8', continentName: 'Oceania'},
     { city: 'Sydney', citySlug: 'sydney', code: 'au', country: 'Australia', entries: '4,09', continentName: 'Oceania'}
-  ]
+  ].reverse()
 
   const middle_east = [
     { city: 'Jerusalem', citySlug: 'jerusalem', code: 'il', country: 'Israel', entries: '3,93', continentName: 'Oriente Médio'},
@@ -91,7 +91,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     { city: 'Antalya', citySlug: 'antalya', code: 'tr', country: 'Turkey', entries: '12,44', continentName: 'Oriente Médio'},
     { city: 'Istanbul', citySlug: 'istanbul', code: 'tr', country: 'Turkey', entries: '13,43', continentName: 'Oriente Médio'},
     { city: 'Dubai', citySlug: 'dubai', code: 'ae', country: 'Arab Emirates', entries: '15,92', continentName: 'Oriente Médio'}
-  ]
+  ].reverse()
 
   const cities100Plus = {africa, south_america, europe, asia, oceania, middle_east, north_america}
 
